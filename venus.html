@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venus</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/planet-venus.svg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="top-container">
+        <div class="logo-container">
+            <a href="./index.html">
+                <h1 class="logo"> the plannet </h1>
+            </a>
+        </div>
+        <div class="collapse-menu">
+            <img src="./assets/icon-hamburger.svg" icon="icon">
+        </div>
+        <div class="planet-menu">
+            <a class="category-box" href="./index.html">
+                <h5 class="planet">MERCURY</h5>
+            </a>
+            <a class="category-box" href="./venus.html">
+                <h5 class="planet">VENUS</h5>
+            </a>
+            <a class="category-box" href="./earth.html">
+                <h5 class="planet">EARTH</h5>
+            </a>
+            <a class="category-box" href="./mars.html">
+                <h5 class="planet">EARTH</h5>
+            </a>
+            <a class="category-box" href="./jupiter.html">
+                <h5 class="planet">JUPITER</h5>
+            </a>
+            <a class="category-box" href="./saturn.html">
+                <h5 class="planet">SATURN</h5>
+            </a>
+            <a class="category-box" href="./uranus.html">
+                <h5 class="planet">URANUS</h5>
+            </a>
+            <a class="category-box" href="neptune.html">
+                <h5 class="planet">NEPTUNR</h5> 
+            </a>
+        </div>
+    </section>
+    <hr>
+
+    <div class="category-drop-list collapse-drop-list">
+        <a class="category-box" href="./index.html">
+            <div class="left">
+                <div class="planet-color mer"></div>
+                <h5 class="planet">MERCURY</h5>
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+        <hr>
+        <a class="category-box" href="./venus.html">
+            <div class="left">
+                <div class="planet-color ven"></div>
+                <h5 class="planet">VENUS</h5>
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+        <hr>
+        <a class="category-box" href="./earth.html">
+            <div class="left">
+                <div class="planet-color ear"></div>
+                <h5 class="planet">EARTH</h5>
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+        <hr>
+        <a class="category-box" href="./mars.html">
+            <div class="left">
+                <div class="planet-color mar"></div>
+                <h5 class="planet">MARS</h5>
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+        <hr>
+        <a class="category-box" href="./jupiter.html">
+            <div class="left">
+                <div class="planet-color jup"></div>
+                <h5 class="planet">JUPITER</h5>
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+        <hr>
+        <a class="category-box" href="./saturn.html">
+            <div class="left">
+                <div class="planet-color sat"></div>
+                <h5 class="planet">SATURN</h5>
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+        <hr>
+        <a class="category-box" href="./uranus.html">
+            <div class="left">
+                <div class="planet-color ura"></div>
+                <h5 class="planet">URANUS</h5>
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+        <hr>
+        <a class="category-box" href="neptune.html">
+            <div class="left">
+                <div class="planet-color nep"></div>
+                <h5 class="planet">NEPTUNE</h5> 
+            </div>
+            <div class="right">
+                <img src="./assets/icon-chevron.svg" alt="icon">
+            </div>
+        </a>
+    </div>
+
+    <div class="mobile-menu-off">
+        <div class="mobile-menu">
+            <div>
+                <button onClick="overview()" class="mobile-category overview btn-hover">OVERVIEW</button> 
+            </div>
+            <div>
+                <button onClick="structure()" class="mobile-category structure">STRUCTURES</button> <br>
+            </div>
+            <div>
+                <button onClick="surface()" class="mobile-category surface">SURFACE</button> <br>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+
+    <section class="bottom-container">
+        <div class="bottom-1">
+            <div class="image-container">
+                <img class="plannet-image" src="./assets/planet-venus.svg" alt="mecury image">
+                <img class="surface-img is-hidden" src="./assets/geology-venus.png" alt="surface venus image">
+            </div>
+            <div class="content-container">
+                <div class="details">
+                    <h1>VENUS</h1>
+                    <p class="content">Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.</p>
+                    <p class="source">Source: <a href="#"> Wikipedia <img src="./assets/icon-source.svg" alt="icon"></a></p>
+                </div>
+                <div class="button-container">
+                        <div>
+                            <button onClick="overview()" class="category overview btn-hover"> <span class="od">01 </span>OVERVIEW</button> 
+                        </div>
+                        <div>
+                            <button onClick="structure()" class="category structure"><span class="od">02 </span>INTERNAL STRUCTURES</button> <br>
+                        </div>
+                        <div>
+                            <button onClick="surface()" class="category surface"><span class="od">03 </span>SURFACE GEOLOGY</button> <br>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-2">
+            <div class="gen-info">
+                <p>ROTATION TIME</p>
+                <H2>243 DAYS</H2>
+            </div>
+            <div class="gen-info">
+                <p>REVOLUTION TIME</p>
+                <H2>224.7 DAYS</H2>
+            </div>
+            <div class="gen-info">
+                <p>RADIUS</p>
+                <H2>6,051.8 KM</H2>
+            </div>
+            <div class="gen-info">
+                <p>AVERAGE TEMP.</p>
+                <H2>471 C</H2>
+            </div>
+        </div>
+    </section>
+
+    <h6 class="footer">Code by: Nguyen Truc An</h6>
+    <script src="./js/venus.js"></script>
+</body>
+</html>
